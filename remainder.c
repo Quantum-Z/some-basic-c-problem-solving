@@ -52,7 +52,6 @@ printf("Number: ");
 
 //----Convert minute to hours,minute,second----
 
-
 #include <stdio.h>
 #include <math.h>
 
@@ -65,11 +64,11 @@ int main() {
     int hours = min / 60;
     int minutes = (int)min - hours * 60;
 
-    printf("%d min are %d hours and %d minutes.\n", (int)min, hours, minutes);
-
     float seconds = (min - (int)min) * 60;
 
-    printf("%d min are %.2f seconds.\n", (int)min, seconds);
 
-return 0;
+    printf("%.2f min are %d hours, %d minutes, and %.2f seconds\n", min, hours, minutes, seconds);
+
+    return 0;
 }
+
