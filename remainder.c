@@ -72,3 +72,44 @@ int main() {
     return 0;
 }
 
+//-----Become messi with if else------
+
+#include<stdio.h>
+#include<math.h>
+
+int main (){
+int x, y;
+printf ("Enter number: ");
+ scanf("%d %d",&x , &y);
+     
+if (x*y == 10)
+    printf("you are messi :>>>> ");
+
+else if (x*y <10 )
+    printf(" You are in the team 10  :> ");
+
+else printf ("You are not in the team :<");
+
+ return 0;
+}
+
+//-----FIND vowel or consonant-----
+#include<stdio.h>
+int main (){
+
+ char letter ;
+
+ printf ("Enter a letter: ");
+ scanf("%c", &letter);
+
+ if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' ||
+        letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U')
+    printf(" vowel");
+
+else printf ("consonant");
+ return 0;
+ }
+
+
+
+
