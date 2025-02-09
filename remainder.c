@@ -93,6 +93,14 @@ else printf ("You are not in the team :<");
  return 0;
 }
 
+
+
+
+
+
+
+
+
 //-----FIND vowel or consonant-----
 #include<stdio.h>
 int main (){
@@ -109,6 +117,79 @@ int main (){
 else printf ("consonant");
  return 0;
  }
+
+// ------Write a c programme to find the largest of three numbers------
+
+#include <stdio.h>
+
+int main() {
+    int n1, n2, n3;
+    
+
+    printf("enter three numbers: ");
+    scanf("%d %d %d", &n1, &n2, &n3);
+    
+    int largest = n1;
+    
+    if (n2 > largest) {
+        largest = n2;
+    }
+    
+    if (n3 > largest) {
+        largest = n3;
+    }
+    
+     printf("the largest number is: %d\n", largest);
+    
+    return 0;
+}
+
+
+// ------ Write a c programme to find the smallest of three numbers------
+
+#include <stdio.h>
+
+int main() {
+    int n1, n2, n3;
+    
+      printf("enter three numbers: ");
+    scanf("%d %d %d", &n1, &n2, &n3); 
+    
+    int smallest = n1;
+    
+    if (n2 < smallest) {
+        smallest = n2;
+    }
+    
+    if (n3 < smallest) {
+        smallest = n3;
+    }
+    
+    printf("the smallest number is: %d\n", smallest);
+    
+    return 0;
+}
+
+//-----Write a c programme to check if a number is even or odd------
+
+#include <stdio.h>
+
+int main() {
+    int n; 
+    
+    printf("Enter a number: ");
+    scanf("%d", &n); 
+    
+    if (n % 2 == 0) {
+        
+        printf("The number %d is even.\n", n);
+    } else {
+        
+        printf("The number %d is odd.\n", n);
+    }
+    
+    return 0;
+}
 
 
 
