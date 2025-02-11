@@ -1,4 +1,4 @@
-//----Remainder of two integer------
+//------Remainder of two integer--------
 
 #include <stdio.h>
 
@@ -13,7 +13,7 @@ int main() {
     return 0;
 }
 
-//-----celsius ot Fahrenheit-----
+//------celsius ot Fahrenheit--------
 
 
 #include <stdio.h>
@@ -31,7 +31,7 @@ return 0;
 
 
 
-//-----Square and cube of a Number-----
+//------Square and cube of a Number-------
 
 #include <stdio.h>
 
@@ -50,7 +50,7 @@ printf("Number: ");
 
 }
 
-//----Convert minute to hours,minute,second----
+//------Convert minute to hours,minute,second--------
 
 #include <stdio.h>
 #include <math.h>
@@ -72,7 +72,7 @@ int main() {
     return 0;
 }
 
-//-----Become messi with if else------
+//-------Become messi with if else--------
 
 #include<stdio.h>
 #include<math.h>
@@ -101,7 +101,7 @@ else printf ("You are not in the team :<");
 
 
 
-//-----FIND vowel or consonant-----
+//-------FIND vowel or consonant--------
 #include<stdio.h>
 int main (){
 
@@ -118,7 +118,7 @@ else printf ("consonant");
  return 0;
  }
 
-// ------Write a c programme to find the largest of three numbers------
+//--------Write a c programme to find the largest of three numbers--------
 
 #include <stdio.h>
 
@@ -145,7 +145,7 @@ int main() {
 }
 
 
-// ------ Write a c programme to find the smallest of three numbers------
+//-------Write a c programme to find the smallest of three numbers-------
 
 #include <stdio.h>
 
@@ -170,7 +170,7 @@ int main() {
     return 0;
 }
 
-//-----Write a c programme to check if a number is even or odd------
+//------Write a c programme to check if a number is even or odd-------
 
 #include <stdio.h>
 
