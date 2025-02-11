@@ -15,7 +15,6 @@ int main() {
 
 //------celsius ot Fahrenheit--------
 
-
 #include <stdio.h>
 int main() {
 float celsius, fahrenheit;
@@ -73,7 +72,6 @@ int main() {
 }
 
 //-------Become messi with if else--------
-
 #include<stdio.h>
 #include<math.h>
 
