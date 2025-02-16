@@ -191,4 +191,72 @@ int main() {
 
 
 
+//----write a c program to find if a number is grerater than 5 or not----------
+
+
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("enter a number: ");
+    scanf("%d", &num);
+
+    switch (num > 5) {
+        case 1:
+            printf("the number is greater than 5.\n");
+            break;
+        case 0:
+            printf("the number is not greater than 5.\n");
+            break;
+    }
+
+    return 0;
+}
+
+//------even and odd using swtich case------
+
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("enter a number: ");
+    scanf("%d", &num);
+
+    switch (num % 2) {
+        case 0:
+            printf("the number %d is even.\n", num);
+            break;
+        case 1:
+            printf("the number %d is odd.\n", num);
+            break;
+    }
+
+    return 0;
+}
+
+
+//-----alphabate is vowel or consonant using switch case-------
+#include <stdio.h>
+
+int main() {
+    char ch;
+
+    printf("enter a character: ");
+    scanf("%c", &ch);
+
+
+    switch (ch) {
+        case 'A': case 'E': case 'I': case 'O': case 'U':
+            printf("the character '%c' is a vowel.\n", ch);
+            break;
+        default:
+            printf("the character '%c' is a consonant.\n", ch);
+    }
+
+    return 0;
+}
+
+
 
